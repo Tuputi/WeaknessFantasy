@@ -72,7 +72,7 @@ public class LightController : MonoBehaviour {
     {
        
         float curAngle = lightTorch.spotAngle;
-        if(curAngle < 30 || curAngle > 45)
+        if(curAngle < 60 || curAngle > 75)
         {
             changeAmount *= -1f;
         }
