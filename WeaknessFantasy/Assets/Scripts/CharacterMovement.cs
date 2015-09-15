@@ -67,14 +67,14 @@ public class CharacterMovement : MonoBehaviour {
         return 0;
     }
 
-    void OnMouseOver()
+   /* void OnMouseOver()
     {
         LightController.instance.CallFlicker();
     }
     void OnMouseExit()
     {
         LightController.instance.CloseFlicker();
-    }
+    }*/
 
 }
 
