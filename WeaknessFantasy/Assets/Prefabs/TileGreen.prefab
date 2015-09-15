@@ -1,57 +1,57 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &159598
+--- !u!1 &117554
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 439204}
-  - 212: {fileID: 21204162}
-  - 68: {fileID: 6813250}
+  - 4: {fileID: 400880}
+  - 212: {fileID: 21298482}
+  - 68: {fileID: 6810002}
   m_Layer: 0
-  m_Name: TileBase
+  m_Name: TileGreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &439204
+--- !u!4 &400880
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159598}
+  m_GameObject: {fileID: 117554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.05000019, y: 2.75999999, z: 0}
+  m_LocalPosition: {x: 9.93000031, y: 1.59000003, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!68 &6813250
+--- !u!68 &6810002
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159598}
+  m_GameObject: {fileID: 117554}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
-  - {x: -.918589234, y: -.407053173}
-  - {x: .019837141, y: -.859334707}
-  - {x: .945441723, y: -.437837958}
-  - {x: .0289199352, y: -.0208619833}
-  - {x: -.917672873, y: -.407053351}
---- !u!212 &21204162
+  - {x: -.00498056412, y: -.0542737842}
+  - {x: -.953027725, y: -.423503399}
+  - {x: -.00498104095, y: -.895516992}
+  - {x: .941640377, y: -.449840039}
+  - {x: .00498151779, y: -.0633194447}
+--- !u!212 &21298482
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 159598}
+  m_GameObject: {fileID: 117554}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a92ad424dae3a624c89c2f3ddc5767d2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f59c3018dd9720548ae2daae7d34e565, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
@@ -79,6 +79,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_LocalScale.x
       value: 2
@@ -89,5 +93,5 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 159598}
+  m_RootGameObject: {fileID: 117554}
   m_IsPrefabParent: 1
