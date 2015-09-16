@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 guid: 165edb5454165464db5f4014f51af4be
-timeCreated: 1442392356
+timeCreated: 1442398447
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: character back_0
+    21300002: character back_1
+    21300004: character back_2
+    21300006: character back_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +34,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +52,47 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: character back_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 110
+        width: 420
+        height: 370
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character back_1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 110
+        width: 420
+        height: 370
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character back_2
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 108
+        width: 420
+        height: 370
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character back_3
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 106
+        width: 420
+        height: 370
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

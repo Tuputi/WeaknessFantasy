@@ -5,13 +5,13 @@ public class CharacterMovement : MonoBehaviour {
 
     public GameObject playerCharacter;
     public float speed = 4f;
-    public Facing facing = Facing.Right;
+  
 
     public bool withinActionTrigger = false;
 
     Animator anim;
 
-    public enum Facing {  Right, Left, Up, Down};
+    public int currentDirection;
 
 
 
@@ -37,6 +37,7 @@ public class CharacterMovement : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Space) && withinActionTrigger){
             Debug.Log("Action!");
         }
+
     }
 
 
@@ -45,26 +46,30 @@ public class CharacterMovement : MonoBehaviour {
         if(horizontal >= 0 && vertical > 0)
         {
             Debug.Log("rightUp");
-            //moving left or up
-            return 2; //left
+            //moving left or up x
+            currentDirection = 2;
+            //left
         }
         else if(horizontal < 0 && vertical <= 0)
         {
-            //moving down or right
+            //moving down or right x
             Debug.Log("downLeft");
-            return 3; // down
+            currentDirection = 3;
+          // down
         }
-        else if(horizontal < 0 && vertical >= 0)
+        else if(vertical < 0)
         {
             Debug.Log("leftup");
-            return 4;
+            currentDirection = 4;
+            
         }
-        else if (horizontal >= 0 && vertical < 0)
+        else if (horizontal > 0)
         {
             Debug.Log("rightDown");
-            return 1;
+            currentDirection = 1;
+           
         }
-        return 0;
+        return currentDirection;
     }
 
    /* void OnMouseOver()

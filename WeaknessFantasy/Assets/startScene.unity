@@ -1584,8 +1584,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCharacter: {fileID: 0}
   speed: 4
-  facing: 0
   withinActionTrigger: 0
+  currentDirection: 0
 --- !u!61 &1827209384
 BoxCollider2D:
   m_ObjectHideFlags: 0
