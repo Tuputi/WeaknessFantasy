@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 16f56916be8424546ace345eb73e8c2c
-timeCreated: 1442330360
+timeCreated: 1442400460
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -56,42 +56,42 @@ TextureImporter:
     - name: character together_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 130
-        width: 431
-        height: 470
+        x: 25
+        y: 117
+        width: 418
+        height: 391
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: character together_1
       rect:
         serializedVersion: 2
-        x: 431
-        y: 130
-        width: 431
-        height: 470
+        x: 443
+        y: 115
+        width: 420
+        height: 397
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: character together_2
       rect:
         serializedVersion: 2
-        x: 862
-        y: 130
-        width: 431
-        height: 470
+        x: 865
+        y: 109
+        width: 428
+        height: 401
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: character together_3
       rect:
         serializedVersion: 2
         x: 1293
-        y: 130
+        y: 111
         width: 431
-        height: 470
+        height: 399
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

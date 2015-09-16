@@ -1,9 +1,15 @@
 fileFormatVersion: 2
 guid: 10d03891338dcc54badd22ec32580e3d
-timeCreated: 1442390905
+timeCreated: 1442400592
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: character smiling_0
+    21300002: character smiling_1
+    21300004: character smiling_2
+    21300006: character smiling_3
+    21300008: character smiling_4
+    21300010: character smiling_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +36,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +54,67 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: character smiling_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 104
+        width: 432
+        height: 395
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character smiling_1
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 100
+        width: 445
+        height: 399
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character smiling_2
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 102
+        width: 453
+        height: 399
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character smiling_3
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 108
+        width: 454
+        height: 395
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character smiling_4
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 110
+        width: 466
+        height: 393
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character smiling_5
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 108
+        width: 475
+        height: 399
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

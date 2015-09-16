@@ -72,14 +72,16 @@ public class CharacterMovement : MonoBehaviour {
         return currentDirection;
     }
 
-   /* void OnMouseOver()
+    void OnMouseOver()
     {
-        LightController.instance.CallFlicker();
+        // LightController.instance.CallFlicker();
+        anim.Play("Smiling");
+        currentDirection = 4;
     }
     void OnMouseExit()
     {
-        LightController.instance.CloseFlicker();
-    }*/
+       // LightController.instance.CloseFlicker();
+    }
 
 
     public IEnumerator PlayEndLevelAnimation()
