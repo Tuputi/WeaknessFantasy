@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: f5e53f76f8f448e4692543a5f6da3455
+timeCreated: 1442407334
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: hey_7
+    21300002: hey_8
+    21300004: hey_9
+    21300006: hey_10
+    21300008: hey_11
+    21300010: hey_12
+    21300012: hey_13
+    21300014: hey_14
+    21300016: hey_15
+    21300018: hey_16
+    21300020: hey_17
+    21300022: hey_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: hey_7
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 178
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_8
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 185
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_9
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 185
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_10
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 183
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_11
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 185
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_12
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 180
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_13
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 178
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_14
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 180
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_15
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 175
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_16
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 173
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_17
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 171
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_18
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 171
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
