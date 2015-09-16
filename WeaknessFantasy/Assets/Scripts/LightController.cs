@@ -24,6 +24,9 @@ public class LightController : MonoBehaviour {
 
     //scary when player closer to character
     bool flickerStart = false;
+    float FadeIntervall = 10f;
+    float FadeSpeed = 10f;
+    float playerFader = 0f;
 
 
 
@@ -42,6 +45,14 @@ public class LightController : MonoBehaviour {
  
 
         Flicker(lightTorch, 0.2f, 4);
+
+        if (worldLight.intensity < 0.1f)
+        {
+            Debug.Log("in here");
+            FadePlayerLight();
+        }
+
+
 
     }
 
@@ -130,13 +141,26 @@ public class LightController : MonoBehaviour {
     }
 
 
-    /*public IEnumerator FadePlayerLight(Light light, Light secondLight)
+   public void FadePlayerLight()
     {
-        Debug.Log("here");
-        yield return new WaitForSeconds(0.5f);
-        light.intensity -= 0.1f;
-        secondLight.intensity -= 0.1f;
-    }*/
+        playerFader += Time.deltaTime;
+
+        if (playerFader > FadeIntervall)
+        {
+            float fadeAmount = lightTorch.range / FadeIntervall;
+            float fadeamountlarge = lightLarger.range / FadeIntervall;
+
+            lightTorch.range -= fadeAmount;
+            lightLarger.range -= fadeamountlarge;
+            playerFader = 0;
+        }
+        if(lightTorch.range <= 3.5f)
+        {
+            Debug.Log("ENd game");
+            Application.LoadLevel(0);
+        }
+
+    }
 
 
 }

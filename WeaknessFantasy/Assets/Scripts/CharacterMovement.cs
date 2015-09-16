@@ -63,11 +63,7 @@ public class CharacterMovement : MonoBehaviour {
         }
 
 
-       /* if(LightController.instance.worldLight.intensity < 0.1f)
-        {
-            Light light1 = this.GetComponentInChildren<Light>();
-            StartCoroutine(LightController.instance.FadePlayerLight(light1, light1.GetComponentInChildren<Light>()));
-        }*/
+        
 
 
     }
@@ -131,9 +127,8 @@ public class CharacterMovement : MonoBehaviour {
     {
         Debug.Log("in here");
         anim.Play("Disappear");
-       // float second = GetComponentInChildren<Animator>().animation
-      //      ("Disappear").length;
-        yield return new WaitForSeconds(3);
+        
+        yield return new WaitForSeconds(0.9f);
         Application.LoadLevel(Application.loadedLevel + 1);
     }
 
