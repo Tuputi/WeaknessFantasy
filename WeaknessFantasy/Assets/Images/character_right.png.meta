@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 1f4f94061816d8d4aa453e3f7296be34
-timeCreated: 1442399423
+guid: dc6b82dceeacd0e4c9f38104338a7e68
+timeCreated: 1442399955
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: characte front_0
-    21300002: characte front_1
-    21300004: characte front_2
-    21300006: characte front_3
+    21300000: character_right_0
+    21300002: character_right_1
+    21300004: character_right_2
+    21300006: character_right_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -53,43 +53,43 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: characte front_0
+    - name: character_right_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 109
-        width: 436
-        height: 401
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: characte front_1
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 107
-        width: 430
+        x: 15
+        y: 126
+        width: 428
         height: 396
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: characte front_2
+    - name: character_right_1
       rect:
         serializedVersion: 2
-        x: 894
-        y: 112
-        width: 423
-        height: 391
+        x: 431
+        y: 126
+        width: 430
+        height: 395
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: characte front_3
+    - name: character_right_2
       rect:
         serializedVersion: 2
-        x: 1317
-        y: 116
-        width: 422
-        height: 393
+        x: 861
+        y: 130
+        width: 427
+        height: 389
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_right_3
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 132
+        width: 428
+        height: 385
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
