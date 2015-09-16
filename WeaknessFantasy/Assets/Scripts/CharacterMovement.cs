@@ -135,7 +135,11 @@ public class CharacterMovement : MonoBehaviour {
 
     public IEnumerator PlayEndGameSound()
     {
-        audSource.PlayOneShot(beepSound);
+        if (!hasBeeped)
+        {
+            audSource.PlayOneShot(beepSound);
+            hasBeeped = true;
+        }
 
         yield return new WaitForSeconds(0.9f);
         Application.LoadLevel(0);
