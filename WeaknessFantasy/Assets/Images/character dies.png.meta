@@ -1,9 +1,17 @@
 fileFormatVersion: 2
 guid: 7af4bdb1ffb55854b99f7d1f26718d24
-timeCreated: 1442390906
+timeCreated: 1442394459
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: character dies_0
+    21300002: character dies_1
+    21300004: character dies_2
+    21300006: character dies_3
+    21300008: character dies_4
+    21300010: character dies_5
+    21300012: character dies_6
+    21300014: character dies_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,7 +56,87 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: character dies_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 454
+        height: 354
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character dies_1
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 409
+        height: 354
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character dies_2
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 0
+        width: 421
+        height: 354
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character dies_3
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 3
+        width: 424
+        height: 351
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character dies_4
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 0
+        width: 421
+        height: 354
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character dies_5
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 0
+        width: 417
+        height: 354
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character dies_6
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 3
+        width: 412
+        height: 351
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character dies_7
+      rect:
+        serializedVersion: 2
+        x: 2986
+        y: 0
+        width: 410
+        height: 354
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
