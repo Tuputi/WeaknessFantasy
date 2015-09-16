@@ -11,6 +11,11 @@ public class CharacterMovement : MonoBehaviour {
 
     Animator anim;
 
+    //sound
+    public AudioSource audSource;
+    public AudioClip beepSound;
+    bool hasBeeped = false;
+
     public int currentDirection;
 
     public float IdleTime = 0;
@@ -22,6 +27,7 @@ public class CharacterMovement : MonoBehaviour {
     {
         playerCharacter = GameObject.Find("PlayerCharacter").gameObject;
         anim = playerCharacter.GetComponentInChildren<Animator>();
+        //audSource = playerCharacter.GetComponentInChildren<AudioSource>();
     }
 
     void FixedUpdate()
@@ -40,13 +46,29 @@ public class CharacterMovement : MonoBehaviour {
         IdleTime += Time.fixedDeltaTime;
         if(IdleTime > IdleTimeEdge)
         {
-            anim.Play("Waiting");
+            int rando = Random.Range(1, 3);
+            if(rando > 2)
+            {
+                anim.Play("Smiling");
+            }
+            else
+            {
+                anim.Play("Waiting");
+            }
             currentDirection = 4;
             IdleTime = 0;
         }
         if (Input.GetKeyDown(KeyCode.Space) && withinActionTrigger){
             Debug.Log("Action!");
         }
+
+
+       /* if(LightController.instance.worldLight.intensity < 0.1f)
+        {
+            Light light1 = this.GetComponentInChildren<Light>();
+            StartCoroutine(LightController.instance.FadePlayerLight(light1, light1.GetComponentInChildren<Light>()));
+        }*/
+
 
     }
 
@@ -91,10 +113,17 @@ public class CharacterMovement : MonoBehaviour {
         // LightController.instance.CallFlicker();
         anim.Play("Smiling");
         currentDirection = 4;
+        if (!hasBeeped)
+        {
+            audSource.PlayOneShot(beepSound);
+            hasBeeped = true;
+        }
+        
     }
     void OnMouseExit()
     {
-       // LightController.instance.CloseFlicker();
+        hasBeeped = false;
+        // LightController.instance.CloseFlicker();
     }
 
 
@@ -107,6 +136,8 @@ public class CharacterMovement : MonoBehaviour {
         yield return new WaitForSeconds(3);
         Application.LoadLevel(Application.loadedLevel + 1);
     }
+
+    
 
 }
 

@@ -1,18 +1,21 @@
 fileFormatVersion: 2
-guid: 7af4bdb1ffb55854b99f7d1f26718d24
-timeCreated: 1442405488
+guid: f5e53f76f8f448e4692543a5f6da3455
+timeCreated: 1442407334
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: character dies_0
-    21300002: character dies_1
-    21300004: character dies_2
-    21300006: character dies_3
-    21300008: character dies_4
-    21300010: character dies_5
-    21300012: character dies_6
-    21300014: character dies_7
-    21300016: character dies_8
+    21300000: hey_7
+    21300002: hey_8
+    21300004: hey_9
+    21300006: hey_10
+    21300008: hey_11
+    21300010: hey_12
+    21300012: hey_13
+    21300014: hey_14
+    21300016: hey_15
+    21300018: hey_16
+    21300020: hey_17
+    21300022: hey_18
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -58,93 +61,123 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: character dies_0
+    - name: hey_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 454
-        height: 354
+        x: 253
+        y: 178
+        width: 200
+        height: 235
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_1
+    - name: hey_8
       rect:
         serializedVersion: 2
-        x: 462
-        y: 0
-        width: 409
-        height: 354
+        x: 460
+        y: 185
+        width: 200
+        height: 235
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_2
+    - name: hey_9
       rect:
         serializedVersion: 2
-        x: 879
-        y: 0
-        width: 421
-        height: 354
+        x: 669
+        y: 185
+        width: 200
+        height: 235
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_3
+    - name: hey_10
       rect:
         serializedVersion: 2
-        x: 1304
-        y: 3
-        width: 424
-        height: 351
+        x: 876
+        y: 183
+        width: 200
+        height: 235
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_4
+    - name: hey_11
       rect:
         serializedVersion: 2
-        x: 1736
-        y: 0
-        width: 421
-        height: 354
+        x: 1086
+        y: 185
+        width: 200
+        height: 235
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_5
+    - name: hey_12
       rect:
         serializedVersion: 2
-        x: 2153
-        y: 0
-        width: 417
-        height: 354
+        x: 1293
+        y: 180
+        width: 200
+        height: 235
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_6
+    - name: hey_13
       rect:
         serializedVersion: 2
-        x: 2570
-        y: 3
-        width: 412
-        height: 351
+        x: 1496
+        y: 178
+        width: 200
+        height: 235
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_7
+    - name: hey_14
       rect:
         serializedVersion: 2
-        x: 3025
-        y: 0
-        width: 300
-        height: 354
+        x: 1705
+        y: 180
+        width: 200
+        height: 235
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_8
+    - name: hey_15
       rect:
         serializedVersion: 2
-        x: 3325
-        y: 165
-        width: 71
-        height: 89
+        x: 1917
+        y: 175
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_16
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 173
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_17
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 171
+        width: 200
+        height: 235
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hey_18
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 171
+        width: 200
+        height: 235
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

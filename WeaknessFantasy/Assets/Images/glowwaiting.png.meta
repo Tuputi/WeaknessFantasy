@@ -1,18 +1,16 @@
 fileFormatVersion: 2
-guid: 7af4bdb1ffb55854b99f7d1f26718d24
-timeCreated: 1442405488
+guid: 1c48ffdbba1cb5041886bfb82a2b4cf2
+timeCreated: 1442407525
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: character dies_0
-    21300002: character dies_1
-    21300004: character dies_2
-    21300006: character dies_3
-    21300008: character dies_4
-    21300010: character dies_5
-    21300012: character dies_6
-    21300014: character dies_7
-    21300016: character dies_8
+    21300000: glowwaiting_0
+    21300002: glowwaiting_1
+    21300004: glowwaiting_2
+    21300006: glowwaiting_3
+    21300008: glowwaiting_4
+    21300010: glowwaiting_5
+    21300012: glowwaiting_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -58,93 +56,73 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: character dies_0
+    - name: glowwaiting_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 454
-        height: 354
+        x: 67
+        y: 126
+        width: 340
+        height: 330
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_1
+    - name: glowwaiting_1
       rect:
         serializedVersion: 2
-        x: 462
-        y: 0
-        width: 409
-        height: 354
+        x: 478
+        y: 126
+        width: 335
+        height: 329
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_2
+    - name: glowwaiting_2
       rect:
         serializedVersion: 2
-        x: 879
-        y: 0
-        width: 421
-        height: 354
+        x: 900
+        y: 129
+        width: 348
+        height: 333
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_3
+    - name: glowwaiting_3
       rect:
         serializedVersion: 2
-        x: 1304
-        y: 3
-        width: 424
-        height: 351
+        x: 1331
+        y: 122
+        width: 322
+        height: 330
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_4
+    - name: glowwaiting_4
       rect:
         serializedVersion: 2
-        x: 1736
-        y: 0
-        width: 421
-        height: 354
+        x: 1752
+        y: 129
+        width: 336
+        height: 322
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_5
+    - name: glowwaiting_5
       rect:
         serializedVersion: 2
-        x: 2153
-        y: 0
-        width: 417
-        height: 354
+        x: 2159
+        y: 133
+        width: 341
+        height: 312
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_6
+    - name: glowwaiting_6
       rect:
         serializedVersion: 2
-        x: 2570
-        y: 3
-        width: 412
-        height: 351
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_7
-      rect:
-        serializedVersion: 2
-        x: 3025
-        y: 0
-        width: 300
-        height: 354
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: character dies_8
-      rect:
-        serializedVersion: 2
-        x: 3325
-        y: 165
-        width: 71
-        height: 89
+        x: 2594
+        y: 143
+        width: 337
+        height: 305
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

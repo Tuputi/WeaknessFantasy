@@ -1375,6 +1375,8 @@ MonoBehaviour:
   playerCharacter: {fileID: 0}
   speed: 4
   withinActionTrigger: 0
+  audSource: {fileID: 0}
+  beepSound: {fileID: 0}
   currentDirection: 0
   IdleTime: 0
   IdleTimeEdge: 10

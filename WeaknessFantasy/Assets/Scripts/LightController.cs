@@ -3,7 +3,7 @@ using System.Collections;
 
 public class LightController : MonoBehaviour {
 
-    Light worldLight;
+    public Light worldLight;
     public float FadeDuration = 10000f;
     float currentTime;
     float decreaseAmount;
@@ -128,4 +128,15 @@ public class LightController : MonoBehaviour {
     {
         flickerStart = false;
     }
+
+
+    /*public IEnumerator FadePlayerLight(Light light, Light secondLight)
+    {
+        Debug.Log("here");
+        yield return new WaitForSeconds(0.5f);
+        light.intensity -= 0.1f;
+        secondLight.intensity -= 0.1f;
+    }*/
+
+
 }
