@@ -16,7 +16,8 @@ public class TriggerScript : MonoBehaviour {
         switch (type)
         {
             case TriggerType.NextLevel:
-                Application.LoadLevel(1);
+                CharacterMovement charMove = GameObject.Find("PlayerCharacter").GetComponentInChildren<CharacterMovement>();
+                StartCoroutine(charMove.PlayEndLevelAnimation());
                 break;
             case TriggerType.Sound:
                 break;

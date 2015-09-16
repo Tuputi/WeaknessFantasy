@@ -76,5 +76,16 @@ public class CharacterMovement : MonoBehaviour {
         LightController.instance.CloseFlicker();
     }*/
 
+
+    public IEnumerator PlayEndLevelAnimation()
+    {
+        Debug.Log("in here");
+        anim.Play("Disappear");
+       // float second = GetComponentInChildren<Animator>().animation
+      //      ("Disappear").length;
+        yield return new WaitForSeconds(3);
+        Application.LoadLevel(Application.loadedLevel + 1);
+    }
+
 }
 
