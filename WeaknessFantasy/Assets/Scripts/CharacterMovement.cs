@@ -132,7 +132,16 @@ public class CharacterMovement : MonoBehaviour {
         Application.LoadLevel(Application.loadedLevel + 1);
     }
 
-    
+
+    public IEnumerator PlayEndGameSound()
+    {
+        audSource.PlayOneShot(beepSound);
+
+        yield return new WaitForSeconds(0.9f);
+        Application.LoadLevel(0);
+    }
+
+
 
 }
 
