@@ -157,7 +157,8 @@ public class LightController : MonoBehaviour {
         if(lightTorch.range <= 3.5f)
         {
             Debug.Log("ENd game");
-            Application.LoadLevel(0);
+            CharacterMovement chrMove = GameObject.Find("PlayerCharacter").GetComponentInChildren<CharacterMovement>();
+            StartCoroutine(chrMove.PlayEndGameSound());
         }
 
     }

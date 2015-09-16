@@ -488,7 +488,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!1001 &1422669634
 Prefab:
   m_ObjectHideFlags: 0
@@ -535,7 +535,7 @@ Prefab:
     - target: {fileID: 11499574, guid: 3ebb896b70826534ca7aae6f5088f937, type: 2}
       propertyPath: beepSound
       value: 
-      objectReference: {fileID: 8300000, guid: 7921e21e63e94ec4887e4b984ca83ac2, type: 3}
+      objectReference: {fileID: 8300000, guid: 2b5fc5fad456e1942acfc11313e20c95, type: 3}
     - target: {fileID: 8271704, guid: 3ebb896b70826534ca7aae6f5088f937, type: 2}
       propertyPath: m_audioClip
       value: 
