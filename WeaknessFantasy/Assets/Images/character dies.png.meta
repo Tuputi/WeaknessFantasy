@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7af4bdb1ffb55854b99f7d1f26718d24
-timeCreated: 1442394459
+timeCreated: 1442405488
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -12,6 +12,7 @@ TextureImporter:
     21300010: character dies_5
     21300012: character dies_6
     21300014: character dies_7
+    21300016: character dies_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -130,10 +131,20 @@ TextureImporter:
     - name: character dies_7
       rect:
         serializedVersion: 2
-        x: 2986
+        x: 3025
         y: 0
-        width: 410
+        width: 300
         height: 354
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character dies_8
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 165
+        width: 71
+        height: 89
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
