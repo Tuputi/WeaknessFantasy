@@ -13,6 +13,9 @@ public class CharacterMovement : MonoBehaviour {
 
     public int currentDirection;
 
+    public float IdleTime = 0;
+    public float IdleTimeEdge = 5f;
+
 
 
     void Start()
@@ -34,6 +37,13 @@ public class CharacterMovement : MonoBehaviour {
 
     void Update()
     {
+        IdleTime += Time.fixedDeltaTime;
+        if(IdleTime > IdleTimeEdge)
+        {
+            anim.Play("Waiting");
+            currentDirection = 4;
+            IdleTime = 0;
+        }
         if (Input.GetKeyDown(KeyCode.Space) && withinActionTrigger){
             Debug.Log("Action!");
         }
@@ -47,6 +57,7 @@ public class CharacterMovement : MonoBehaviour {
         {
             Debug.Log("rightUp");
             //moving left or up x
+            IdleTime = 0;
             currentDirection = 2;
             //left
         }
@@ -54,18 +65,21 @@ public class CharacterMovement : MonoBehaviour {
         {
             //moving down or right x
             Debug.Log("downLeft");
+            IdleTime = 0;
             currentDirection = 3;
           // down
         }
         else if(vertical < 0)
         {
             Debug.Log("leftup");
+            IdleTime = 0;
             currentDirection = 4;
             
         }
         else if (horizontal > 0)
         {
             Debug.Log("rightDown");
+            IdleTime = 0;
             currentDirection = 1;
            
         }

@@ -1376,6 +1376,8 @@ MonoBehaviour:
   speed: 4
   withinActionTrigger: 0
   currentDirection: 0
+  IdleTime: 0
+  IdleTimeEdge: 10
 --- !u!61 &1272833897
 BoxCollider2D:
   m_ObjectHideFlags: 0
