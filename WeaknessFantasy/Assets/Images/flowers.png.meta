@@ -1,9 +1,28 @@
 fileFormatVersion: 2
 guid: 34a89ce0d0104ad4fb828b0b4eb9a0db
-timeCreated: 1442475453
-licenseType: Pro
+timeCreated: 1442487736
+licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: flowers_17
+    21300002: flowers_44
+    21300004: flowers_18
+    21300006: flowers_19
+    21300008: flowers_0
+    21300010: flowers_1
+    21300012: flowers_2
+    21300014: flowers_3
+    21300016: flowers_4
+    21300018: flowers_5
+    21300020: flowers_6
+    21300022: flowers_7
+    21300024: flowers_8
+    21300026: flowers_9
+    21300028: flowers_10
+    21300030: flowers_11
+    21300032: flowers_12
+    21300034: flowers_13
+    21300036: flowers_14
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +49,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +67,197 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: flowers_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 205
+        width: 319
+        height: 244
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_44
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 208
+        width: 319
+        height: 244
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_18
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 208
+        width: 319
+        height: 244
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_19
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 210
+        width: 319
+        height: 244
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_0
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 210
+        width: 319
+        height: 244
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_1
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 210
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_2
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 209
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_3
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 209
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_4
+      rect:
+        serializedVersion: 2
+        x: 3058
+        y: 209
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_5
+      rect:
+        serializedVersion: 2
+        x: 3470
+        y: 211
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_6
+      rect:
+        serializedVersion: 2
+        x: 3878
+        y: 211
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_7
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 211
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_8
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 211
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_9
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 211
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_10
+      rect:
+        serializedVersion: 2
+        x: 5530
+        y: 213
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_11
+      rect:
+        serializedVersion: 2
+        x: 5945
+        y: 215
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_12
+      rect:
+        serializedVersion: 2
+        x: 6355
+        y: 207
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_13
+      rect:
+        serializedVersion: 2
+        x: 6776
+        y: 198
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: flowers_14
+      rect:
+        serializedVersion: 2
+        x: 7184
+        y: 189
+        width: 319
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
