@@ -1,9 +1,20 @@
 fileFormatVersion: 2
 guid: b48ec19d95844494788d30e4f6d7bccc
-timeCreated: 1442493263
+timeCreated: 1442495522
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: game over if you loose_0
+    21300002: game over if you loose_1
+    21300004: game over if you loose_2
+    21300006: game over if you loose_3
+    21300008: game over if you loose_4
+    21300010: game over if you loose_5
+    21300012: game over if you loose_6
+    21300014: game over if you loose_7
+    21300016: game over if you loose_8
+    21300018: game over if you loose_10
+    21300020: game over if you loose_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +41,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +59,117 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: game over if you loose_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 196
+        width: 400
+        height: 265
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over if you loose_1
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 202
+        width: 400
+        height: 265
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over if you loose_2
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 202
+        width: 400
+        height: 265
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over if you loose_3
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 205
+        width: 400
+        height: 265
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over if you loose_4
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 196
+        width: 400
+        height: 265
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over if you loose_5
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 202
+        width: 400
+        height: 265
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over if you loose_6
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 187
+        width: 400
+        height: 265
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over if you loose_7
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 181
+        width: 400
+        height: 265
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over if you loose_8
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 178
+        width: 400
+        height: 265
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over if you loose_10
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 161
+        width: 306
+        height: 270
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: game over if you loose_9
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 158
+        width: 306
+        height: 270
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
