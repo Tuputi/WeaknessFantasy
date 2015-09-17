@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 68b9e6bd0a886104f92ae81f17e32fbf
-timeCreated: 1442499300
+timeCreated: 1442501145
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -15,6 +15,7 @@ TextureImporter:
     21300016: text out of light_8
     21300018: text out of light_9
     21300020: text out of light_10
+    21300022: text out of light_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -167,6 +168,16 @@ TextureImporter:
         y: 165
         width: 365
         height: 267
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: text out of light_11
+      rect:
+        serializedVersion: 2
+        x: 4610
+        y: 51
+        width: 22
+        height: 44
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

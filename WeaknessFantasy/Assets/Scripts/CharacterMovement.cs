@@ -137,13 +137,14 @@ public class CharacterMovement : MonoBehaviour {
         if (!hasBeeped)
         {
             GameObject deadCharacter = Instantiate(DyingPlayer);
-            deadCharacter.transform.localPosition = playerCharacter.transform.localPosition;
-            audSource.PlayOneShot(beepSound);
+            deadCharacter.transform.localPosition = playerCharacter.transform.localPosition - new Vector3(0,0,0.2f);
+            playerCharacter.transform.FindChild("Character").GetComponent<SpriteRenderer>().enabled = false;
+            //audSource.PlayOneShot(beepSound);
             hasBeeped = true;
         }
 
         yield return new WaitForSeconds(3f);
-        Application.LoadLevel(0);
+        Application.LoadLevel(5);
     }
 
 
