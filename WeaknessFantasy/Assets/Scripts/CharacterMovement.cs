@@ -4,6 +4,7 @@ using System.Collections;
 public class CharacterMovement : MonoBehaviour {
 
     public GameObject playerCharacter;
+    public GameObject DyingPlayer;
     public float speed = 4f;
   
 
@@ -124,9 +125,8 @@ public class CharacterMovement : MonoBehaviour {
 
     public IEnumerator PlayEndLevelAnimation()
     {
-        Debug.Log("in here");
         anim.Play("Disappear");
-        
+        Destroy(this); //take away player control
         yield return new WaitForSeconds(0.9f);
         Application.LoadLevel(Application.loadedLevel + 1);
     }
@@ -136,11 +136,13 @@ public class CharacterMovement : MonoBehaviour {
     {
         if (!hasBeeped)
         {
+            GameObject deadCharacter = Instantiate(DyingPlayer);
+            deadCharacter.transform.localPosition = playerCharacter.transform.localPosition;
             audSource.PlayOneShot(beepSound);
             hasBeeped = true;
         }
 
-        yield return new WaitForSeconds(0.9f);
+        yield return new WaitForSeconds(3f);
         Application.LoadLevel(0);
     }
 

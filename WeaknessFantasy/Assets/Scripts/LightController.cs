@@ -49,7 +49,7 @@ public class LightController : MonoBehaviour {
 
         Flicker(lightTorch, 0.2f, 4);
 
-        if (worldLight.intensity < 0.1f)
+        if (worldLight.intensity < 0.2f)
         {
             Debug.Log("in here");
             FadePlayerLight();
@@ -155,7 +155,7 @@ public class LightController : MonoBehaviour {
             lightLarger.range -= fadeamountlarge;
             playerFader = 0;
         }
-        if(lightTorch.range <= 3.5f)
+        if(lightTorch.range <= 3.6f)
         {
             Debug.Log("ENd game");
             CharacterMovement chrMove = GameObject.Find("PlayerCharacter").GetComponentInChildren<CharacterMovement>();

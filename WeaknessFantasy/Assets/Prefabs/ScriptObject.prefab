@@ -41,7 +41,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   possibleDoors: []
-  door: {fileID: 0}
+  door: {fileID: 131724, guid: 06a8cdea77844cc4c8f5fa63b37eda17, type: 2}
 --- !u!114 &11479180
 MonoBehaviour:
   m_ObjectHideFlags: 1
