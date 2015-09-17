@@ -1,9 +1,19 @@
 fileFormatVersion: 2
 guid: 8b16398c72cc95543a6aa93a3d7ee2d9
-timeCreated: 1442500262
+timeCreated: 1442508558
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: landmarks2_0
+    21300002: landmarks2_1
+    21300004: landmarks2_2
+    21300006: landmarks2_3
+    21300008: landmarks2_4
+    21300010: landmarks2_5
+    21300012: landmarks2_6
+    21300014: landmarks2_7
+    21300016: landmarks2_8
+    21300018: landmarks2_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +40,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +58,107 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: landmarks2_0
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 205
+        width: 108
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: landmarks2_1
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 205
+        width: 108
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: landmarks2_2
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 205
+        width: 108
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: landmarks2_3
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 204
+        width: 108
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: landmarks2_4
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 204
+        width: 108
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: landmarks2_5
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 204
+        width: 108
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: landmarks2_6
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 204
+        width: 108
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: landmarks2_7
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 204
+        width: 108
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: landmarks2_8
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 205
+        width: 108
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: landmarks2_9
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 204
+        width: 108
+        height: 254
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
