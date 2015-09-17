@@ -9,7 +9,7 @@ public class DoorScript : MonoBehaviour {
 
     void Start()
     {
-        int random = Random.Range(0, possibleDoors.Count - 1);
+        int random = Random.Range(0, possibleDoors.Count);
 
         GameObject newDoor = Instantiate(door);
         newDoor.transform.SetParent(possibleDoors[random].transform);

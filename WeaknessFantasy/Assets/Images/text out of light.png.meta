@@ -1,9 +1,20 @@
 fileFormatVersion: 2
 guid: 68b9e6bd0a886104f92ae81f17e32fbf
-timeCreated: 1442493262
+timeCreated: 1442499300
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: text out of light_0
+    21300002: text out of light_1
+    21300004: text out of light_2
+    21300006: text out of light_3
+    21300008: text out of light_4
+    21300010: text out of light_5
+    21300012: text out of light_6
+    21300014: text out of light_7
+    21300016: text out of light_8
+    21300018: text out of light_9
+    21300020: text out of light_10
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,14 +41,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +59,117 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: text out of light_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 216
+        width: 173
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: text out of light_1
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 217
+        width: 173
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: text out of light_2
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 216
+        width: 173
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: text out of light_3
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 214
+        width: 200
+        height: 183
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: text out of light_4
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 212
+        width: 200
+        height: 183
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: text out of light_5
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 211
+        width: 200
+        height: 183
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: text out of light_6
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 207
+        width: 224
+        height: 199
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: text out of light_7
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 203
+        width: 224
+        height: 199
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: text out of light_8
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 203
+        width: 224
+        height: 199
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: text out of light_9
+      rect:
+        serializedVersion: 2
+        x: 3886
+        y: 190
+        width: 240
+        height: 201
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: text out of light_10
+      rect:
+        serializedVersion: 2
+        x: 4240
+        y: 165
+        width: 365
+        height: 267
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

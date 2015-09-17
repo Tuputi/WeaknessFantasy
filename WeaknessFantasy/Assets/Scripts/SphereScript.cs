@@ -7,6 +7,9 @@ public class SphereScript : MonoBehaviour {
     public List<GameObject> appearPoints;
     public GameObject sphere;
     public static SphereScript instance;
+    public Camera playerCamera;
+
+    float cameraOrgSize;
 
     //expand
     public bool ExpandOn = false;
@@ -16,6 +19,7 @@ public class SphereScript : MonoBehaviour {
     void Awake()
     {
         instance = this;
+        cameraOrgSize = playerCamera.orthographicSize;
     }
 
     void Update()
@@ -47,6 +51,8 @@ public class SphereScript : MonoBehaviour {
             {
                 lightSource.spotAngle += 1f;
                 lightSource.range += 0.05f;
+
+                playerCamera.orthographicSize += 0.01f;
             }
             else
             {
@@ -55,6 +61,10 @@ public class SphereScript : MonoBehaviour {
         }
         else
         {
+            if (playerCamera.orthographicSize > cameraOrgSize)
+            {
+                playerCamera.orthographicSize -= 0.01f;
+            }
             if (lightSource.spotAngle <= 0 || lightSource.range <= 0)
             {
                 ExpandOn = false;

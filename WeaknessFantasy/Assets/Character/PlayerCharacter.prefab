@@ -389,7 +389,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f526fda4f31af6248abc0a0438129c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCharacter: {fileID: 0}
+  playerCharacter: {fileID: 150872}
+  DyingPlayer: {fileID: 198276, guid: 6f13ca8537d81ff4396626562bf853bf, type: 2}
   speed: 4
   withinActionTrigger: 0
   audSource: {fileID: 0}
@@ -441,6 +442,14 @@ Prefab:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: playerCharacter
+      value: 
+      objectReference: {fileID: 150872}
+    - target: {fileID: 0}
+      propertyPath: DyingPlayer
+      value: 
+      objectReference: {fileID: 198276, guid: 6f13ca8537d81ff4396626562bf853bf, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 150872}
