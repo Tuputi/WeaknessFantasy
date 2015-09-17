@@ -13,3 +13,7 @@ EditorBuildSettings:
     path: Assets/level_middle.unity
   - enabled: 1
     path: Assets/level_1.unity
+  - enabled: 1
+    path: Assets/level_hard.unity
+  - enabled: 1
+    path: Assets/endScene.unity
