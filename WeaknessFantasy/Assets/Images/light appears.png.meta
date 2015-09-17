@@ -1,9 +1,23 @@
 fileFormatVersion: 2
 guid: 8a2f56e5d3fb2c249aad35c9678c6aad
-timeCreated: 1442403829
+timeCreated: 1442489331
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: light appears_6
+    21300002: light appears_7
+    21300004: light appears_8
+    21300006: light appears_9
+    21300008: light appears_10
+    21300010: light appears_11
+    21300012: light appears_12
+    21300014: light appears_13
+    21300016: light appears_14
+    21300018: light appears_15
+    21300020: light appears_16
+    21300022: light appears_0
+    21300024: light appears_1
+    21300026: light appears_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,7 +62,147 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: light appears_6
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 193
+        width: 216
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_7
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 182
+        width: 236
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_8
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 189
+        width: 212
+        height: 227
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_9
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 183
+        width: 220
+        height: 223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_10
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 186
+        width: 218
+        height: 227
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_11
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 186
+        width: 215
+        height: 227
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_12
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 186
+        width: 221
+        height: 223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_13
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 180
+        width: 201
+        height: 220
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_14
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 176
+        width: 221
+        height: 242
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_15
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 177
+        width: 216
+        height: 230
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_16
+      rect:
+        serializedVersion: 2
+        x: 2769
+        y: 176
+        width: 195
+        height: 238
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_0
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 186
+        width: 216
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 194
+        width: 216
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: light appears_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 194
+        width: 216
+        height: 206
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

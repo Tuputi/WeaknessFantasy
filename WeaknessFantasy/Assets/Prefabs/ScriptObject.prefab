@@ -9,6 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 479486}
   - 114: {fileID: 11479180}
+  - 114: {fileID: 11462200}
   m_Layer: 0
   m_Name: ScriptObject
   m_TagString: Untagged
@@ -28,6 +29,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &11462200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 175950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a773dfde5cdccc46bce4fcae0ba4739, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  possibleDoors: []
+  door: {fileID: 0}
 --- !u!114 &11479180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -39,6 +53,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0acef849755804e4f9bc298a078400c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  worldLight: {fileID: 0}
   FadeDuration: 1000
   playerCharacter: {fileID: 0}
 --- !u!1001 &100100000

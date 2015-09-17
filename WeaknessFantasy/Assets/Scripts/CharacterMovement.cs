@@ -66,7 +66,7 @@ public class CharacterMovement : MonoBehaviour {
     {
         if(horizontal >= 0 && vertical > 0)
         {
-            Debug.Log("rightUp");
+            
             //moving left or up x
             IdleTime = 0;
             anim.SetBool("Idle", false);
@@ -76,7 +76,7 @@ public class CharacterMovement : MonoBehaviour {
         else if(horizontal < 0 && vertical <= 0)
         {
             //moving down or right x
-            Debug.Log("downLeft");
+            
             IdleTime = 0;
             anim.SetBool("Idle", false);
             currentDirection = 3;
@@ -84,7 +84,7 @@ public class CharacterMovement : MonoBehaviour {
         }
         else if(vertical < 0)
         {
-            Debug.Log("leftup");
+           
             IdleTime = 0;
             anim.SetBool("Idle", false);
             currentDirection = 4;
@@ -92,7 +92,7 @@ public class CharacterMovement : MonoBehaviour {
         }
         else if (horizontal > 0)
         {
-            Debug.Log("rightDown");
+            
             IdleTime = 0;
             anim.SetBool("Idle", false);
             currentDirection = 1;
