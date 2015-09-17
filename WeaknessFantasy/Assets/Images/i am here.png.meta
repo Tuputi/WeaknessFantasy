@@ -1,15 +1,24 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: d93efd22697b22440b2c618a06abfa7b
-timeCreated: 1442411215
+timeCreated: 1442495745
 licenseType: Free
-=======
-guid: d9bfb4954322506459778a78720cff03
-timeCreated: 1442411307
-licenseType: Pro
->>>>>>> 5821718cc3956c84c5befd0ebc7b8ee0f3a02e32
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: i am here_0
+    21300002: i am here_1
+    21300004: i am here_2
+    21300006: i am here_3
+    21300008: i am here_4
+    21300010: i am here_5
+    21300012: i am here_8
+    21300014: i am here_9
+    21300016: i am here_10
+    21300018: i am here_11
+    21300020: i am here_12
+    21300022: i am here_13
+    21300024: i am here_14
+    21300026: i am here_6
+    21300028: i am here_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -36,22 +45,14 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-<<<<<<< HEAD
     aniso: 16
-=======
-    aniso: -1
->>>>>>> 5821718cc3956c84c5befd0ebc7b8ee0f3a02e32
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> 5821718cc3956c84c5befd0ebc7b8ee0f3a02e32
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -62,7 +63,157 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: i am here_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 208
+        width: 241
+        height: 185
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 206
+        width: 219
+        height: 179
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 204
+        width: 222
+        height: 195
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_3
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 203
+        width: 216
+        height: 197
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_4
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 199
+        width: 196
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_5
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 169
+        width: 258
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_8
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_9
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_10
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_11
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_12
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_13
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 203
+        width: 196
+        height: 205
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_14
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 161
+        width: 258
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_6
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 162
+        width: 258
+        height: 249
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: i am here_7
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 156
+        width: 295
+        height: 245
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
