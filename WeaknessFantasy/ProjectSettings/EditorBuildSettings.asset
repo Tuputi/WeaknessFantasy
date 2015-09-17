@@ -16,4 +16,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/level_hard.unity
   - enabled: 1
+    path: Assets/level_hardest.unity
+  - enabled: 1
     path: Assets/endScene.unity

@@ -175,6 +175,7 @@ MonoBehaviour:
   - {fileID: 151032}
   - {fileID: 164490}
   sphere: {fileID: 185596, guid: 64c69264082220d4589198c493401c07, type: 2}
+  playerCamera: {fileID: 2057874, guid: 3ebb896b70826534ca7aae6f5088f937, type: 2}
   ExpandOn: 0
   currentObject: {fileID: 0}
 --- !u!114 &11488852
@@ -195,7 +196,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: playerCamera
+      value: 
+      objectReference: {fileID: 2057874, guid: 3ebb896b70826534ca7aae6f5088f937, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 122072}
