@@ -8,6 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 447564}
+  - 114: {fileID: 11440958}
   m_Layer: 0
   m_Name: AppearPoints
   m_TagString: Untagged
@@ -84,7 +85,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 151032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.3449001, y: -11.7186146, z: -.768326044}
+  m_LocalPosition: {x: 1.83000004, y: -7.42000008, z: -.768326044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 447564}
@@ -96,7 +97,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 133340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.66489935, y: -6.05861473, z: -.768326044}
+  m_LocalPosition: {x: 5.92999983, y: -7.44999981, z: -.768326044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 447564}
@@ -124,8 +125,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.62489915, y: -5.00861454, z: -.768326044}
-  m_LocalScale: {x: 1.22865605, y: 1.22865605, z: .614328027}
+  m_LocalPosition: {x: 3.11999989, y: -5.01000023, z: -.768326044}
+  m_LocalScale: {x: .871748328, y: .871748328, z: .435874164}
   m_Children: []
   m_Father: {fileID: 447564}
   m_RootOrder: 0
@@ -136,7 +137,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164490}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.8548985, y: -2.59861445, z: -.768326044}
+  m_LocalPosition: {x: 6.80999994, y: -5.13999987, z: -.768326044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 447564}
@@ -158,6 +159,24 @@ EdgeCollider2D:
   - {x: -.00498104095, y: -.895516992}
   - {x: .941640377, y: -.449840039}
   - {x: .00498151779, y: -.0633194447}
+--- !u!114 &11440958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb3e40555f07f441be555fd8e8ef944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appearPoints:
+  - {fileID: 133340}
+  - {fileID: 151032}
+  - {fileID: 164490}
+  sphere: {fileID: 185596, guid: 64c69264082220d4589198c493401c07, type: 2}
+  ExpandOn: 0
+  currentObject: {fileID: 0}
 --- !u!114 &11488852
 MonoBehaviour:
   m_ObjectHideFlags: 1

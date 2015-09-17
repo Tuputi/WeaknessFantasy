@@ -39,6 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0acef849755804e4f9bc298a078400c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  worldLight: {fileID: 0}
   FadeDuration: 1000
   playerCharacter: {fileID: 0}
 --- !u!1001 &100100000
