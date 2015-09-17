@@ -46,15 +46,8 @@ public class CharacterMovement : MonoBehaviour {
         IdleTime += Time.fixedDeltaTime;
         if(IdleTime > IdleTimeEdge)
         {
-            int rando = Random.Range(1, 3);
-            if(rando > 2)
-            {
-                anim.Play("Smiling");
-            }
-            else
-            {
-                anim.Play("Waiting");
-            }
+            Debug.Log("Idle on!");
+            anim.SetBool("Idle", true);
             currentDirection = 4;
             IdleTime = 0;
         }
@@ -76,6 +69,7 @@ public class CharacterMovement : MonoBehaviour {
             Debug.Log("rightUp");
             //moving left or up x
             IdleTime = 0;
+            anim.SetBool("Idle", false);
             currentDirection = 2;
             //left
         }
@@ -84,6 +78,7 @@ public class CharacterMovement : MonoBehaviour {
             //moving down or right x
             Debug.Log("downLeft");
             IdleTime = 0;
+            anim.SetBool("Idle", false);
             currentDirection = 3;
           // down
         }
@@ -91,6 +86,7 @@ public class CharacterMovement : MonoBehaviour {
         {
             Debug.Log("leftup");
             IdleTime = 0;
+            anim.SetBool("Idle", false);
             currentDirection = 4;
             
         }
@@ -98,6 +94,7 @@ public class CharacterMovement : MonoBehaviour {
         {
             Debug.Log("rightDown");
             IdleTime = 0;
+            anim.SetBool("Idle", false);
             currentDirection = 1;
            
         }
@@ -107,6 +104,8 @@ public class CharacterMovement : MonoBehaviour {
     void OnMouseOver()
     {
         // LightController.instance.CallFlicker();
+        anim.SetBool("Idle", false);
+        IdleTime = 0;
         anim.Play("Smiling");
         currentDirection = 4;
         if (!hasBeeped)
