@@ -4,7 +4,7 @@ using System.Collections;
 public class TriggerScript : MonoBehaviour {
 
 
-    public enum TriggerType { NextLevel, Sound};
+    public enum TriggerType { NextLevel, Sound, Light, ExpandLight};
 
     public TriggerType type;
 
@@ -20,6 +20,14 @@ public class TriggerScript : MonoBehaviour {
                 StartCoroutine(charMove.PlayEndLevelAnimation());
                 break;
             case TriggerType.Sound:
+                break;
+            case TriggerType.Light:
+                SphereScript.instance.CreateLight();
+                Destroy(this.gameObject);
+                break;
+            case TriggerType.ExpandLight:
+                SphereScript.instance.currentObject = this.gameObject.transform.parent.gameObject;
+                SphereScript.instance.ExpandOn = true;
                 break;
             default:
                 break;

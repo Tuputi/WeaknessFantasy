@@ -28,6 +28,9 @@ public class LightController : MonoBehaviour {
     float FadeSpeed = 10f;
     float playerFader = 0f;
 
+    //expand
+    bool expandOn = false;
+
 
 
 
@@ -51,8 +54,6 @@ public class LightController : MonoBehaviour {
             Debug.Log("in here");
             FadePlayerLight();
         }
-
-
 
     }
 
@@ -163,5 +164,7 @@ public class LightController : MonoBehaviour {
 
     }
 
+
+    
 
 }
