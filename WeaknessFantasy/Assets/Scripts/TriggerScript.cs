@@ -31,6 +31,8 @@ public class TriggerScript : MonoBehaviour {
                 SphereScript.instance.ExpandOn = true;
                 break;
             case TriggerType.EndGame:
+                GameObject musicBox = GameObject.Find("MusicPlayer").gameObject;
+                Destroy(musicBox);
                 Application.LoadLevel(0);
                 break;
             default:

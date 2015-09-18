@@ -231,7 +231,7 @@ Transform:
   m_LocalScale: {x: 1.81225121, y: 1.81225145, z: 1.81225145}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
 --- !u!68 &134196494
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -754,6 +754,10 @@ Prefab:
     - target: {fileID: 182280, guid: 2c76556b321c96d4d8148d02024a0b26, type: 2}
       propertyPath: m_Name
       value: Trigger (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 11431686, guid: 2c76556b321c96d4d8148d02024a0b26, type: 2}
+      propertyPath: type
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c76556b321c96d4d8148d02024a0b26, type: 2}
