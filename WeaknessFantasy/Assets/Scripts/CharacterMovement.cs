@@ -47,13 +47,23 @@ public class CharacterMovement : MonoBehaviour {
         IdleTime += Time.fixedDeltaTime;
         if(IdleTime > IdleTimeEdge)
         {
-            Debug.Log("Idle on!");
+            
             anim.SetBool("Idle", true);
             currentDirection = 4;
             IdleTime = 0;
         }
-        if (Input.GetKeyDown(KeyCode.Space) && withinActionTrigger){
-            Debug.Log("Action!");
+        if (Input.GetKeyDown(KeyCode.Space)){
+            anim.SetBool("Idle", false);
+            IdleTime = 0;
+            anim.Play("Smiling");
+            currentDirection = 4;
+           
+                audSource.PlayOneShot(beepSound); 
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Screen.fullScreen = !Screen.fullScreen;
         }
 
 
