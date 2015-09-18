@@ -27,9 +27,12 @@ public class TriggerScript : MonoBehaviour {
                 break;
             case TriggerType.ExpandLight:
                 SphereScript.instance.currentObject = this.gameObject.transform.parent.gameObject;
+                //SphereScript.instance.appearPoints.Add(this.gameObject.transform.parent.gameObject.transform.parent.gameObject);
                 SphereScript.instance.ExpandOn = true;
                 break;
             case TriggerType.EndGame:
+                GameObject musicBox = GameObject.Find("MusicPlayer").gameObject;
+                Destroy(musicBox);
                 Application.LoadLevel(0);
                 break;
             default:

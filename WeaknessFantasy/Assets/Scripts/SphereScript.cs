@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class SphereScript : MonoBehaviour {
 
     public List<GameObject> appearPoints;
+   // public List<GameObject> usedPoints;
     public GameObject sphere;
     public static SphereScript instance;
     public Camera playerCamera;
@@ -40,6 +41,9 @@ public class SphereScript : MonoBehaviour {
        
         newSphere.transform.SetParent(appearPoints[i].transform);
         newSphere.transform.localPosition = new Vector3(0, 0, 0);
+
+        //usedPoints.Add(appearPoints[i]);
+        appearPoints.RemoveAt(i);
     }
 
     public void Expand(GameObject sphereOb)

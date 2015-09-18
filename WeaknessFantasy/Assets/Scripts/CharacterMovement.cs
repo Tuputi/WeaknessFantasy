@@ -144,7 +144,7 @@ public class CharacterMovement : MonoBehaviour {
         }
 
         yield return new WaitForSeconds(3f);
-        Application.LoadLevel(5);
+        Application.LoadLevel(6);
     }
 
 
